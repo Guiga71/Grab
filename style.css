@@ -1,0 +1,95 @@
+header img {
+  width: 160px;
+  height: 85px;
+  position: absolute;
+  left: 212px;
+  top: 229px;
+}
+
+#formulario {
+  width: 600px;
+  height: 800px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: #4e5bee;
+}
+
+#email {
+  padding-left: 50px;
+  width: 300px;
+  height: 50px;
+  position: relative;
+  top: 393px;
+  left: 150px;
+  color: white;
+  border: 2px solid white;
+  box-sizing: border-box;
+  border-radius: 25px;
+  background-color: #4e5bee;
+  background: url(../grab/Subtract.png) left no-repeat;
+  background-position: 20px;
+}
+
+input:focus {
+  outline: none;
+}
+
+#email:invalid {
+  border-color: #ff5757;
+}
+
+#password {
+  padding-left: 50px;
+  width: 300px;
+  height: 50px;
+  position: absolute;
+  left: 150px;
+  top: 461px;
+  border: 2px solid white;
+  box-sizing: border-box;
+  border-radius: 25px;
+  color: white;
+  background-color: #4e5bee;
+  background: url(../grab/lock_24px.png) left no-repeat;
+  background-position: 20px;
+}
+
+button {
+  width: 300px;
+  height: 50px;
+  position: absolute;
+  left: 150px;
+  top: 537px;
+  background: white;
+  border-radius: 25px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #504f60;
+}
+
+p {
+  width: 114px;
+  height: 32px;
+  position: absolute;
+  left: 228px;
+  top: 717px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  line-height: 16px;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  color: white;
+}
+
+#interview {
+  height: 100vh;
+  width: 50vw;
+  position: fixed;
+  left: 600px;
+  top: 21px;
+}
